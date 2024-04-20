@@ -2,7 +2,7 @@
 
 ## 🐑 分支
 
-main------------>基于 Vue3+TypeScript+Pinia+Vite+vue-router+Element Plus 框架，从零搭建
+main------------>基于芋道-UI-Admin-Vue3框架 二次开发
 
 template-------->模板分支
 
