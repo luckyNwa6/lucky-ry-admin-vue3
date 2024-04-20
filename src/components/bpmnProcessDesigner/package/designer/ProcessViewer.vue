@@ -536,7 +536,7 @@ watch(
 
 .highlight-reject.djs-connection > .djs-visual > path {
   stroke: red !important;
-  marker-end: url(#sequenceflow-end-white-success) !important;
+  marker-end: url('#sequenceflow-end-white-success') !important;
 }
 
 .highlight-reject:not(.djs-connection) .djs-visual > :nth-child(1) {

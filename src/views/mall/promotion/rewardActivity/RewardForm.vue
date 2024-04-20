@@ -33,7 +33,7 @@
       <el-form-item label="优惠设置">
         <template v-for="(item, index) in formData.rules" :key="index">
           <el-row type="flex">
-            <el-col :span="24" style="font-weight: bold; display: flex">
+            <el-col :span="24" style="display: flex; font-weight: bold">
               活动层级{{ index + 1 }}
               <el-button
                 link

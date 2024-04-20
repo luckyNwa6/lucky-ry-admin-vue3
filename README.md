@@ -8,7 +8,7 @@ nvm use 20.0.0
 npm i pnpm@8.6.0 -g
 pnpm i
 ```
-
+ 要是有问题，前端网页缓存清理干净
 * nodejs > 16.18.0 && pnpm > 8.6.0 (强制使用pnpm)
 * 演示地址【Vue3 + element-plus】：<http://dashboard-vue3.yudao.iocoder.cn>
 * 演示地址【Vue3 + vben(ant-design-vue)】：<http://dashboard-vben.yudao.iocoder.cn>
