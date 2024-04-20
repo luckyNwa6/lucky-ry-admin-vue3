@@ -10,12 +10,8 @@ pnpm i
 ```
  要是有问题，前端网页缓存清理干净
 * nodejs > 16.18.0 && pnpm > 8.6.0 (强制使用pnpm)
-* 演示地址【Vue3 + element-plus】：<http://dashboard-vue3.yudao.iocoder.cn>
-* 演示地址【Vue3 + vben(ant-design-vue)】：<http://dashboard-vben.yudao.iocoder.cn>
-* 演示地址【Vue2 + element-ui】：<http://dashboard.yudao.iocoder.cn>
-* 启动文档：<https://doc.iocoder.cn/quick-start/>
-* 视频教程：<https://doc.iocoder.cn/video/>
 
+  
 
 ## 技术栈
 
@@ -49,17 +45,7 @@ pnpm i
 | ESLint                        | 脚本代码检查                  |
 | DotENV                        | env 文件高亮                 |
 
-## 🔥 后端架构
 
-支持 Spring Boot、Spring Cloud 两种架构：
-
-① Spring Boot 单体架构：<https://github.com/YunaiV/ruoyi-vue-pro>
-
-![架构图](/.image/common/ruoyi-vue-pro-architecture.png)
-
-② Spring Cloud 微服务架构：<https://github.com/YunaiV/yudao-cloud>
-
-![架构图](/.image/common/yudao-cloud-architecture.png)
 
 ## 内置功能
 
