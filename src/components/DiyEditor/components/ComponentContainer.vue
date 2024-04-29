@@ -180,9 +180,9 @@ $toolbar-position: -55px;
         right: -10px;
         width: 0;
         height: 0;
+        content: ' ';
         border: 5px solid transparent;
         border-left-color: #fff;
-        content: ' ';
       }
     }
 
@@ -200,9 +200,9 @@ $toolbar-position: -55px;
         left: -10px;
         width: 0;
         height: 0;
+        content: ' ';
         border: 5px solid transparent;
         border-right-color: #2d8cf0;
-        content: ' ';
       }
     }
   }

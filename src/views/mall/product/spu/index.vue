@@ -1,7 +1,5 @@
 <!-- 商品中心 - 商品列表  -->
 <template>
-  
-
   <!-- 搜索工作栏 -->
   <ContentWrap>
     <el-form

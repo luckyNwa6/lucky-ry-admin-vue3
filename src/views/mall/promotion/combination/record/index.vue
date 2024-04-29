@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 统计信息展示 -->
   <el-row :gutter="12">
     <el-col :span="6">

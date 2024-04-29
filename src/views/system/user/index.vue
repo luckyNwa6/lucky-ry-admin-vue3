@@ -1,8 +1,4 @@
 <template>
-  
-  
-  
-
   <el-row :gutter="20">
     <!-- 左侧部门树 -->
     <el-col :span="4" :xs="24">

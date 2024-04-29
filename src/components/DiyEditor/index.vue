@@ -411,19 +411,19 @@ $toolbar-height: 42px;
 /* 根节点样式 */
 .editor {
   display: flex;
+  flex-direction: column;
   height: 100%;
   margin: calc(0px - var(--app-content-padding));
-  flex-direction: column;
 
   /* 顶部：工具栏 */
   .editor-header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: $toolbar-height;
     padding: 0;
     background-color: var(--el-bg-color);
     border-bottom: solid 1px var(--el-border-color);
-    align-items: center;
-    justify-content: space-between;
 
     /* 工具栏：右侧按钮 */
     .header-right {
@@ -452,9 +452,9 @@ $toolbar-height: 42px;
 
     /* 右侧属性面板 */
     .editor-right {
+      flex-shrink: 0;
       overflow: hidden;
       box-shadow: -8px 0 8px -8px rgb(0 0 0 / 12%);
-      flex-shrink: 0;
 
       /* 属性面板顶部：减少内边距 */
       :deep(.el-card__header) {
@@ -486,20 +486,20 @@ $toolbar-height: 42px;
     .editor-center {
       position: relative;
       display: flex;
+      flex: 1 1 0;
+      flex-direction: column;
+      justify-content: center;
       width: 100%;
       margin: 16px 0 0;
       overflow: hidden;
       background-color: var(--app-content-bg-color);
-      flex: 1 1 0;
-      flex-direction: column;
-      justify-content: center;
 
       /* 手机顶部 */
       .editor-design-top {
         display: flex;
+        flex-direction: column;
         width: $phone-width;
         margin: 0 auto;
-        flex-direction: column;
 
         /* 手机顶部状态栏 */
         .status-bar {
@@ -550,9 +550,9 @@ $toolbar-height: 42px;
 
           .el-tag__content {
             display: flex;
-            width: 100%;
             align-items: center;
             justify-content: flex-start;
+            width: 100%;
 
             .el-icon {
               margin-right: 4px;

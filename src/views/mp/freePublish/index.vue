@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 搜索工作栏 -->
   <ContentWrap>
     <el-form
@@ -207,10 +205,10 @@ const handleDelete = async (item: any) => {
 
 /* 瀑布流样式 */
 .waterfall {
-  width: 100%;
   column-gap: 10px;
-  column-count: 5;
+  width: 100%;
   margin: 0 auto;
+  column-count: 5;
 }
 
 .waterfall-item {

@@ -89,13 +89,13 @@ const amrStop = () => {
 <style lang="scss" scoped>
 .wx-voice-div {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 120px;
   height: 50px;
   padding: 5px;
   background-color: #eaeaea;
   border-radius: 10px;
-  justify-content: center;
-  align-items: center;
 }
 
 .amr-duration {

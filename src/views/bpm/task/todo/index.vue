@@ -1,11 +1,8 @@
 <template>
-  
-  
   <doc-alert
     title="审批转办、委派、抄送"
     url="https://doc.iocoder.cn/bpm/task-delegation-and-cc/"
   />
-  
 
   <ContentWrap>
     <!-- 搜索工作栏 -->

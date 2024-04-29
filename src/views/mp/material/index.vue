@@ -1,5 +1,4 @@
 <template>
-  
   <!-- 搜索工作栏 -->
   <ContentWrap>
     <el-form class="-mb-15px" :inline="true" label-width="68px">

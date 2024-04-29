@@ -1,7 +1,4 @@
 <template>
-  
-  
-
   <ContentWrap>
     <IFrame v-if="!loading" :src="url" />
   </ContentWrap>

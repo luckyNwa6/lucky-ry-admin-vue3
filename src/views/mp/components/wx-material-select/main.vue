@@ -256,10 +256,10 @@ onMounted(async () => {
 }
 
 .waterfall {
-  width: 100%;
   column-gap: 10px;
-  column-count: 5;
+  width: 100%;
   margin: 0 auto;
+  column-count: 5;
 }
 
 .waterfall-item {

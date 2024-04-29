@@ -1,5 +1,4 @@
 <template>
-  
   <!-- 搜索工作栏 -->
   <ContentWrap>
     <el-form class="-mb-15px" ref="queryFormRef" :inline="true" label-width="68px">
@@ -336,11 +335,13 @@ div {
 
 .public-account-management {
   width: 1200px;
+
   // min-width: 1200px;
   margin: 0 auto;
 
   .left {
     position: relative;
+    box-sizing: border-box;
     display: block;
     float: left;
     width: 350px;
@@ -348,7 +349,6 @@ div {
     padding: 518px 25px 88px;
     background: url('./assets/iphone_backImg.png') no-repeat;
     background-size: 100% auto;
-    box-sizing: border-box;
 
     .save_div {
       margin-top: 15px;
@@ -363,12 +363,12 @@ div {
 
   /* 右边菜单内容 */
   .right {
+    box-sizing: border-box;
     float: left;
     width: 63%;
     padding: 20px;
     margin-left: 20px;
     background-color: #e8e7e7;
-    box-sizing: border-box;
   }
 }
 </style>

@@ -125,14 +125,14 @@ const handleCloneComponent = (component: DiyComponent<any>) => {
 
   .component {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 86px;
     height: 86px;
     cursor: move;
     border-right: 1px solid var(--el-border-color-lighter);
     border-bottom: 1px solid var(--el-border-color-lighter);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
     .el-icon {
       margin-bottom: 4px;
@@ -165,6 +165,8 @@ const handleCloneComponent = (component: DiyComponent<any>) => {
   /* 拖拽到手机区域时的样式 */
   .draggable-ghost {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 40px;
 
@@ -182,8 +184,6 @@ const handleCloneComponent = (component: DiyComponent<any>) => {
     );
     background-size: 1rem 1rem;
     transition: all 0.5s;
-    justify-content: center;
-    align-items: center;
 
     span {
       display: inline-block;

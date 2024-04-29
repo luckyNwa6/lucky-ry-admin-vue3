@@ -1,7 +1,4 @@
 <template>
-  
-  
-
   <ContentWrap>
     <el-form
       ref="formRef"

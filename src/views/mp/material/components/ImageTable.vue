@@ -58,10 +58,10 @@ const emit = defineEmits<{
 }
 
 .waterfall {
-  width: 100%;
   column-gap: 10px;
-  column-count: 5;
+  width: 100%;
   margin-top: 10px;
+  column-count: 5;
 
   /* 芋道源码：增加 10px，避免顶着上面 */
 }

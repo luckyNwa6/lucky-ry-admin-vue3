@@ -157,11 +157,11 @@ const handleSkuChange = (sku: ProductSpuApi.Sku) => {
 <style>
 .select-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   border: 1px dashed var(--el-border-color-darker);
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
 }
 </style>

@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 搜索工作栏 -->
   <ContentWrap>
     <Search :schema="allSchemas.searchSchema" @reset="setSearchParams" @search="setSearchParams">

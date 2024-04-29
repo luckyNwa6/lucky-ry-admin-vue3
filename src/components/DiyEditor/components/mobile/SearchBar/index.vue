@@ -46,29 +46,29 @@ defineProps<{ property: SearchProperty }>()
   .inner {
     position: relative;
     display: flex;
+    align-items: center;
     min-height: 28px;
     font-size: 14px;
-    align-items: center;
 
     .placeholder {
       display: flex;
+      gap: 2px;
+      align-items: center;
       width: 100%;
       padding: 0 8px;
       overflow: hidden;
       text-overflow: ellipsis;
       word-break: break-all;
       white-space: nowrap;
-      align-items: center;
-      gap: 2px;
     }
 
     .right {
       position: absolute;
       right: 8px;
       display: flex;
+      gap: 8px;
       align-items: center;
       justify-content: center;
-      gap: 8px;
     }
   }
 }

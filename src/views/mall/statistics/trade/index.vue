@@ -1,6 +1,4 @@
 <template>
-  
-
   <div class="flex flex-col">
     <el-row :gutter="16" class="summary">
       <el-col :sm="6" :xs="12">

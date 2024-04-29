@@ -1,6 +1,4 @@
 <template>
-  
-
   <ContentWrap>
     <IFrame :src="src" />
   </ContentWrap>

@@ -119,12 +119,12 @@ const emitSpuChange = () => {
 <style lang="scss" scoped>
 .select-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 60px;
   height: 60px;
   border: 1px dashed var(--el-border-color-darker);
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
 }
 
 .spu-pic {

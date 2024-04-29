@@ -223,6 +223,7 @@ $prefix-cls: #{$namespace}-tab-menu;
 
     &:hover {
       color: var(--left-menu-text-active-color);
+
       // background-color: var(--left-menu-bg-active-color);
     }
   }

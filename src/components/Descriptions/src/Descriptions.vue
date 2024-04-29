@@ -151,8 +151,8 @@ $prefix-cls: #{$namespace}-descriptions;
       left: -10px;
       width: 4px;
       height: 70%;
-      background: var(--el-color-primary);
       content: '';
+      background: var(--el-color-primary);
     }
   }
 }

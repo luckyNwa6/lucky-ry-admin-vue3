@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 商品概览 -->
   <ProductSummary />
   <!-- 商品排行 -->

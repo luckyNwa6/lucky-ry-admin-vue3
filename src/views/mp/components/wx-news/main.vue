@@ -77,6 +77,7 @@ defineExpose({
   position: absolute;
   bottom: 0;
   left: 0;
+  box-sizing: unset !important;
   display: inline-block;
   width: 98%;
   padding: 1%;
@@ -85,7 +86,6 @@ defineExpose({
   white-space: normal;
   background-color: black;
   opacity: 0.65;
-  box-sizing: unset !important;
 }
 
 .news-main-item {

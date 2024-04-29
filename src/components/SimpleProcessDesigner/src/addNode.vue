@@ -103,10 +103,10 @@ const addType = (type) => {
 .add-node-btn-box {
   position: relative;
   display: inline-flex;
+  flex-shrink: 0;
   width: 240px;
   -webkit-box-flex: 1;
   -ms-flex-negative: 0;
-  flex-shrink: 0;
   -ms-flex-positive: 1;
 
   &::before {
@@ -116,20 +116,20 @@ const addType = (type) => {
     width: 2px;
     height: 100%;
     margin: auto;
-    background-color: #cacaca;
     content: '';
+    background-color: #cacaca;
   }
 
   .add-node-btn {
     display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
     width: 240px;
     padding: 20px 0 32px;
+    user-select: none;
     -webkit-box-flex: 1;
     -webkit-box-pack: center;
-    user-select: none;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-grow: 1;
 
     .btn {
       position: relative;
@@ -142,7 +142,6 @@ const addType = (type) => {
       outline: none;
       box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
       .iconfont {
         font-size: 16px;
@@ -150,14 +149,14 @@ const addType = (type) => {
       }
 
       &:hover {
-        transform: scale(1.3);
         box-shadow: 0 13px 27px 0 rgb(0 0 0 / 10%);
+        transform: scale(1.3);
       }
 
       &:active {
         background: #1e83e9;
-        transform: none;
         box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+        transform: none;
       }
     }
   }
@@ -167,22 +166,22 @@ const addType = (type) => {
   display: flex;
 
   .add-node-popover-item {
+    flex: 1;
     margin-right: 10px;
     color: #191f25 !important;
     text-align: center;
     cursor: pointer;
-    flex: 1;
 
     .item-wrapper {
       display: inline-block;
       width: 80px;
       height: 80px;
       margin-bottom: 5px;
+      user-select: none;
       background: #fff;
       border: 1px solid #e2e2e2;
       border-radius: 50%;
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-      user-select: none;
 
       .iconfont {
         font-size: 35px;

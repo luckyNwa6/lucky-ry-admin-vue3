@@ -1,6 +1,4 @@
 <template>
-  
-
   <el-row :gutter="20">
     <el-col :span="4" class="min-w-[200px]">
       <div class="side-item-list">

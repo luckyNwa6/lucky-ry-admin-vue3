@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 搜索 -->
   <ContentWrap>
     <el-form ref="queryFormRef" :inline="true" :model="queryParams" label-width="68px">

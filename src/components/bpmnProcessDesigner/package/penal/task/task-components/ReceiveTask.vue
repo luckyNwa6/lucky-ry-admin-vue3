@@ -4,9 +4,9 @@
       <div
         style="
           display: flex;
+          flex-wrap: nowrap;
           align-items: center;
           justify-content: space-between;
-          flex-wrap: nowrap;
         "
       >
         <el-select v-model="bindMessageId" @change="updateTaskMessage">

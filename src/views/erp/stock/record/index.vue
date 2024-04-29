@@ -1,7 +1,5 @@
 <!-- ERP 产品库存明细列表 -->
 <template>
-  
-
   <ContentWrap>
     <!-- 搜索工作栏 -->
     <el-form

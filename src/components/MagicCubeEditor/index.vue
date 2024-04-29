@@ -225,15 +225,15 @@ const eachCube = (callback: (x: number, y: number, cube: Cube) => void) => {
 <style lang="scss" scoped>
 .cube-table {
   position: relative;
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 
   .cube {
+    box-sizing: border-box;
     color: var(--el-text-color-secondary);
     text-align: center;
     cursor: pointer;
     border: 1px solid var(--el-border-color);
-    box-sizing: border-box;
 
     &.active {
       background: var(--el-color-primary-light-9);
@@ -242,16 +242,16 @@ const eachCube = (callback: (x: number, y: number, cube: Cube) => void) => {
 
   .hot-area {
     position: absolute;
-    display: flex;
-    color: var(--el-color-primary);
-    cursor: pointer;
-    background: var(--el-color-primary-light-8);
-    border: 1px solid var(--el-color-primary);
-    border-collapse: collapse;
-    border-spacing: 0;
     box-sizing: border-box;
+    display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--el-color-primary);
+    cursor: pointer;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background: var(--el-color-primary-light-8);
+    border: 1px solid var(--el-color-primary);
 
     .btn-delete {
       position: absolute;
@@ -259,12 +259,12 @@ const eachCube = (callback: (x: number, y: number, cube: Cube) => void) => {
       right: -8px;
       z-index: 1;
       display: flex;
+      align-items: center;
+      justify-content: center;
       width: 16px;
       height: 16px;
       background-color: #fff;
       border-radius: 50%;
-      align-items: center;
-      justify-content: center;
     }
   }
 }

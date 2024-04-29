@@ -48,11 +48,11 @@ defineProps<{ property: TabBarProperty }>()
 
     .tab-bar-item {
       display: flex;
-      width: 100%;
-      font-size: 12px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      width: 100%;
+      font-size: 12px;
 
       :deep(img),
       .el-icon {

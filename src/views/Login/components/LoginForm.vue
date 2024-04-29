@@ -345,8 +345,8 @@ onMounted(() => {
 
   img {
     width: 100%;
-    height: auto;
     max-width: 100px;
+    height: auto;
     vertical-align: middle;
     cursor: pointer;
   }

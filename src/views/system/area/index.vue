@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 操作栏 -->
   <ContentWrap>
     <el-button type="primary" plain @click="openForm()">

@@ -168,7 +168,6 @@ $screen-xl: 1200px;
 
 // Extra extra large screen / large desktop
 $screen-2xl: 1600px;
-
 $error-color: #ed6f6f;
 
 .#{$prefix-cls} {
@@ -181,12 +180,12 @@ $error-color: #ed6f6f;
   &__hour,
   &__minute {
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
     color: #bababa;
     background-color: #141313;
     border-radius: 30px;
-    justify-content: center;
-    align-items: center;
 
     @media screen and (max-width: $screen-md) {
       span:not(.meridiem) {
@@ -230,12 +229,12 @@ $error-color: #ed6f6f;
     top: 0;
     left: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     background-color: rgb(0 0 0 / 50%);
     backdrop-filter: blur(8px);
-    justify-content: center;
-    align-items: center;
 
     &-content {
       width: 260px;

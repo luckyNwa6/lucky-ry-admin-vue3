@@ -27,10 +27,11 @@ defineProps({
     display: inline-block;
     width: 3px;
     height: 14px;
+    content: '';
+
     //background-color: #105cfb;
     background: var(--el-color-primary);
     border-radius: 5px;
-    content: '';
     transform: translateY(-50%);
   }
 }

@@ -1,7 +1,4 @@
 <template>
-  
-  
-
   <!-- 列表 -->
   <ContentWrap>
     <el-tabs>

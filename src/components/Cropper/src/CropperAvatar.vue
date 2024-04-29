@@ -129,14 +129,14 @@ $prefix-cls: #{$namespace}--cropper-avatar;
   position: absolute;
   inset: 0;
   font-size: 24px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-style: normal;
   line-height: 110px;
   color: #eee;
   cursor: pointer;
+  content: '+';
   background: rgb(0 0 0 / 50%);
   border-radius: 50%;
-  content: '+';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 </style>

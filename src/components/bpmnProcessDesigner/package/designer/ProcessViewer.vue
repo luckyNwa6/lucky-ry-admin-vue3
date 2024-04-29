@@ -442,37 +442,37 @@ watch(
 <style lang="scss">
 /** 处理中 */
 .highlight-todo.djs-connection > .djs-visual > path {
+  fill-opacity: 0.2 !important;
   stroke: #1890ff !important;
   stroke-dasharray: 4px !important;
-  fill-opacity: 0.2 !important;
 }
 
 .highlight-todo.djs-shape .djs-visual > :nth-child(1) {
   fill: #1890ff !important;
+  fill-opacity: 0.2 !important;
   stroke: #1890ff !important;
   stroke-dasharray: 4px !important;
-  fill-opacity: 0.2 !important;
 }
 
 :deep(.highlight-todo.djs-connection > .djs-visual > path) {
+  fill-opacity: 0.2 !important;
   stroke: #1890ff !important;
   stroke-dasharray: 4px !important;
-  fill-opacity: 0.2 !important;
   marker-end: url('#sequenceflow-end-_E7DFDF-_E7DFDF-803g1kf6zwzmcig1y2ulm5egr');
 }
 
 :deep(.highlight-todo.djs-shape .djs-visual > :nth-child(1)) {
   fill: #1890ff !important;
+  fill-opacity: 0.2 !important;
   stroke: #1890ff !important;
   stroke-dasharray: 4px !important;
-  fill-opacity: 0.2 !important;
 }
 
 /** 通过 */
 .highlight.djs-shape .djs-visual > :nth-child(1) {
   fill: green !important;
-  stroke: green !important;
   fill-opacity: 0.2 !important;
+  stroke: green !important;
 }
 
 .highlight.djs-shape .djs-visual > :nth-child(2) {
@@ -495,8 +495,8 @@ watch(
 
 :deep(.highlight.djs-shape .djs-visual > :nth-child(1)) {
   fill: green !important;
-  stroke: green !important;
   fill-opacity: 0.2 !important;
+  stroke: green !important;
 }
 
 :deep(.highlight.djs-shape .djs-visual > :nth-child(2)) {
@@ -520,8 +520,8 @@ watch(
 /** 不通过 */
 .highlight-reject.djs-shape .djs-visual > :nth-child(1) {
   fill: red !important;
-  stroke: red !important;
   fill-opacity: 0.2 !important;
+  stroke: red !important;
 }
 
 .highlight-reject.djs-shape .djs-visual > :nth-child(2) {
@@ -545,8 +545,8 @@ watch(
 
 :deep(.highlight-reject.djs-shape .djs-visual > :nth-child(1)) {
   fill: red !important;
-  stroke: red !important;
   fill-opacity: 0.2 !important;
+  stroke: red !important;
 }
 
 :deep(.highlight-reject.djs-shape .djs-visual > :nth-child(2)) {
@@ -566,8 +566,8 @@ watch(
 /** 已取消 */
 .highlight-cancel.djs-shape .djs-visual > :nth-child(1) {
   fill: grey !important;
-  stroke: grey !important;
   fill-opacity: 0.2 !important;
+  stroke: grey !important;
 }
 
 .highlight-cancel.djs-shape .djs-visual > :nth-child(2) {
@@ -590,8 +590,8 @@ watch(
 
 :deep(.highlight-cancel.djs-shape .djs-visual > :nth-child(1)) {
   fill: grey !important;
-  stroke: grey !important;
   fill-opacity: 0.2 !important;
+  stroke: grey !important;
 }
 
 :deep(.highlight-cancel.djs-shape .djs-visual > :nth-child(2)) {
@@ -611,8 +611,8 @@ watch(
 /** 回退 */
 .highlight-return.djs-shape .djs-visual > :nth-child(1) {
   fill: #e6a23c !important;
-  stroke: #e6a23c !important;
   fill-opacity: 0.2 !important;
+  stroke: #e6a23c !important;
 }
 
 .highlight-return.djs-shape .djs-visual > :nth-child(2) {
@@ -635,8 +635,8 @@ watch(
 
 :deep(.highlight-return.djs-shape .djs-visual > :nth-child(1)) {
   fill: #e6a23c !important;
-  stroke: #e6a23c !important;
   fill-opacity: 0.2 !important;
+  stroke: #e6a23c !important;
 }
 
 :deep(.highlight-return.djs-shape .djs-visual > :nth-child(2)) {
@@ -654,11 +654,11 @@ watch(
 }
 
 .element-overlays {
+  box-sizing: border-box;
   width: 200px;
   padding: 8px;
   color: #fafafa;
   background: rgb(0 0 0 / 60%);
   border-radius: 4px;
-  box-sizing: border-box;
 }
 </style>

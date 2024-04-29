@@ -45,8 +45,8 @@ const activeName = ref('basicInfo')
 
 .card-header {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 :deep(.el-card .el-card__header, .el-card .el-card__body) {

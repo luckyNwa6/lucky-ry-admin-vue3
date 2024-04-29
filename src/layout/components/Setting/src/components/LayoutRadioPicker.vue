@@ -75,9 +75,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       z-index: 1;
       width: 33%;
       height: 100%;
+      content: '';
       background-color: #273352;
       border-radius: 4px 0 0 4px;
-      content: '';
     }
 
     &::after {
@@ -86,9 +86,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       left: 0;
       width: 100%;
       height: 25%;
+      content: '';
       background-color: #fff;
       border-radius: 4px 4px 0;
-      content: '';
     }
   }
 
@@ -103,9 +103,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       z-index: 1;
       width: 100%;
       height: 33%;
+      content: '';
       background-color: #273352;
       border-radius: 4px 4px 0 0;
-      content: '';
     }
 
     &::after {
@@ -114,9 +114,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       left: 0;
       width: 33%;
       height: 100%;
+      content: '';
       background-color: #fff;
       border-radius: 4px 0 0 4px;
-      content: '';
     }
   }
 
@@ -131,9 +131,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       z-index: 1;
       width: 100%;
       height: 33%;
+      content: '';
       background-color: #273352;
       border-radius: 4px 4px 0 0;
-      content: '';
     }
   }
 
@@ -148,9 +148,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       z-index: 1;
       width: 100%;
       height: 33%;
+      content: '';
       background-color: #273352;
       border-radius: 4px 4px 0 0;
-      content: '';
     }
 
     &::after {
@@ -159,9 +159,9 @@ $prefix-cls: #{$namespace}-layout-radio-picker;
       left: 0;
       width: 10%;
       height: 100%;
+      content: '';
       background-color: #fff;
       border-radius: 4px 0 0 4px;
-      content: '';
     }
   }
 

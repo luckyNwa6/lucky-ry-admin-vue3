@@ -161,6 +161,7 @@ const onChildDragEnd = ({ newIndex }) => {
 <style lang="scss" scoped>
 .menu_bottom {
   position: relative;
+  box-sizing: border-box;
   display: block;
   float: left;
   width: 85.5px;
@@ -168,7 +169,6 @@ const onChildDragEnd = ({ newIndex }) => {
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #ebedee;
-  box-sizing: border-box;
 
   &.menu_addicon {
     height: 46px;
@@ -180,14 +180,14 @@ const onChildDragEnd = ({ newIndex }) => {
   }
 
   .menu_item {
+    // text-align: center;
+    box-sizing: border-box;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 44px;
     line-height: 44px;
-    // text-align: center;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
 
     &.active {
       border: 1px solid #2bb673;
@@ -195,10 +195,10 @@ const onChildDragEnd = ({ newIndex }) => {
   }
 
   .menu_subItem {
+    box-sizing: border-box;
     height: 44px;
     line-height: 44px;
     text-align: center;
-    box-sizing: border-box;
 
     &.active {
       border: 1px solid #2bb673;
@@ -213,8 +213,8 @@ const onChildDragEnd = ({ newIndex }) => {
   width: 85.5px;
 
   .subtitle {
-    background-color: #fff;
     box-sizing: border-box;
+    background-color: #fff;
   }
 }
 

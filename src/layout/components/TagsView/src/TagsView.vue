@@ -489,8 +489,8 @@ $prefix-cls: #{$namespace}-tags-view;
       left: 0;
       width: 100%;
       height: calc(100% - 1px);
-      border-left: 1px solid var(--el-border-color);
       content: '';
+      border-left: 1px solid var(--el-border-color);
     }
 
     &--first {
@@ -500,9 +500,9 @@ $prefix-cls: #{$namespace}-tags-view;
         left: 0;
         width: 100%;
         height: calc(100% - 1px);
+        content: '';
         border-right: 1px solid var(--el-border-color);
         border-left: none;
-        content: '';
       }
     }
   }

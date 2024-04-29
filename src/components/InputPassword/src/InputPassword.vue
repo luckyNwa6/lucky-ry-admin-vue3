@@ -93,11 +93,11 @@ $prefix-cls: #{$namespace}-input-password;
       display: block;
       width: 20%;
       height: inherit;
+      content: '';
       background-color: transparent;
       border-color: var(--el-color-white);
       border-style: solid;
       border-width: 0 5px;
-      content: '';
     }
 
     &::before {

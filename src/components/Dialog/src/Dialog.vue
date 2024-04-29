@@ -110,8 +110,8 @@ const dialogStyle = computed(() => {
 .com-dialog {
   .#{$elNamespace}-overlay-dialog {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   .#{$elNamespace}-dialog {

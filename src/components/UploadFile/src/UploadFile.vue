@@ -183,8 +183,8 @@ const emitUpdateModelValue = () => {
 
 :deep(.upload-file-list .ele-upload-list__item-content) {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   color: inherit;
 }
 

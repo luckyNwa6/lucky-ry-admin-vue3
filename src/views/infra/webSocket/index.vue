@@ -1,6 +1,4 @@
 <template>
-  
-
   <div class="flex">
     <!-- 左侧：建立连接、发送消息 -->
     <el-card :gutter="12" class="w-1/2" shadow="always">

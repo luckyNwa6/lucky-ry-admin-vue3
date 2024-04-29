@@ -230,8 +230,8 @@ $prefix-cls: #{$namespace}-cropper-am;
 
   &-toolbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-top: 10px;
   }
 
@@ -251,11 +251,11 @@ $prefix-cls: #{$namespace}-cropper-am;
 
   &-group {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding-top: 8px;
     margin-top: 8px;
     border-top: 1px solid;
-    justify-content: space-around;
-    align-items: center;
   }
 }
 </style>

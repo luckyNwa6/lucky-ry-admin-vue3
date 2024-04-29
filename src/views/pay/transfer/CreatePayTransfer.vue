@@ -129,7 +129,7 @@ const submitForm = async () => {
 <style lang="scss" scoped>
 .card-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 </style>

@@ -63,11 +63,11 @@ const getSearchProp = (cell: NavigationBarCellProperty) => {
 <style lang="scss" scoped>
 .navigation-bar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 50px;
   padding: 0 6px;
   background: #fff;
-  justify-content: space-between;
-  align-items: center;
 
   /* 左边 */
   .left {
@@ -75,11 +75,11 @@ const getSearchProp = (cell: NavigationBarCellProperty) => {
   }
 
   .center {
+    flex: 1;
     font-size: 14px;
     line-height: 35px;
     color: #333;
     text-align: center;
-    flex: 1;
   }
 
   /* 右边 */

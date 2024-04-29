@@ -1,6 +1,4 @@
 <template>
-  
-  
   <el-scrollbar height="calc(100vh - 88px - 40px - 50px)">
     <el-row>
       <!-- 基本信息 -->

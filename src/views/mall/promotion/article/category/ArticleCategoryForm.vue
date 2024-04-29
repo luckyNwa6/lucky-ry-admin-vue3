@@ -1,6 +1,4 @@
 <template>
-  
-
   <Dialog v-model="dialogVisible" :title="dialogTitle">
     <el-form
       ref="formRef"

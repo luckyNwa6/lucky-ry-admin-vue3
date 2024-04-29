@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 搜索工作栏 -->
   <ContentWrap>
     <el-form ref="queryFormRef" :inline="true" :model="queryParams" class="-mb-15px">

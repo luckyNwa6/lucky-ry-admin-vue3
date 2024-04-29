@@ -1,6 +1,4 @@
 <template>
-  
-
   <ContentWrap>
     <el-table v-loading="loading" :data="list">
       <el-table-column label="定义编号" align="center" prop="id" width="400" />

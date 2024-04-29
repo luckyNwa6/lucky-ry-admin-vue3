@@ -1,11 +1,8 @@
 <template>
-  
   <doc-alert
     title="流程设计器（钉钉、飞书）"
     url="https://doc.iocoder.cn/bpm/model-designer-bpmn/"
   />
-  
-  
 
   <ContentWrap>
     <!-- 搜索工作栏 -->

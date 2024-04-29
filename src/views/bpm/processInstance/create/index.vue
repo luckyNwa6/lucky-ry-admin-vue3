@@ -1,6 +1,4 @@
 <template>
-  
-
   <!-- 第一步，通过流程定义的列表，选择对应的流程 -->
   <ContentWrap v-if="!selectProcessDefinition" v-loading="loading">
     <el-tabs tab-position="left" v-model="categoryActive">

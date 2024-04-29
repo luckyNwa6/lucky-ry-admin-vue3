@@ -64,8 +64,8 @@ const handleToggleFab = () => {
 }
 
 .fab-icon {
-  transform: rotate(0deg);
   transition: transform 0.3s;
+  transform: rotate(0deg);
 
   &.active {
     transform: rotate(135deg);

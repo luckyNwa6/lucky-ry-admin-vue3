@@ -79,7 +79,7 @@ const { user } = defineProps<{ user: UserApi.UserVO }>()
 <style scoped lang="scss">
 .card-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 </style>

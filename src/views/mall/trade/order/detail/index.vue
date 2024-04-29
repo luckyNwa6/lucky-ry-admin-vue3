@@ -359,8 +359,8 @@ onMounted(async () => {
       width: 3px;
       height: 20px;
       margin-right: 10px;
-      background-color: #409eff;
       content: '';
+      background-color: #409eff;
     }
   }
 
@@ -403,10 +403,10 @@ onMounted(async () => {
       position: absolute;
       top: 10px;
       left: 13px; /* 将伪元素水平居中 */
+      content: ''; /* 必须设置 content 属性 */
       border-color: transparent #f7f8fa transparent transparent; /* 尖角颜色，左侧朝向 */
       border-style: solid;
       border-width: 8px; /* 调整尖角大小 */
-      content: ''; /* 必须设置 content 属性 */
     }
   }
 
@@ -414,13 +414,13 @@ onMounted(async () => {
     position: absolute;
     left: -5px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 20px;
     height: 20px;
     font-size: 10px;
     color: #fff;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
   }
 }
 </style>
